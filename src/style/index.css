@@ -9,3 +9,39 @@ body{
     margin: 0;
     padding: 0;
 }
+.left {
+    background-color: #02152a;
+    height: 100vh;
+}
+.product-img {
+    width: 70px;
+    height: 50px;
+    object-fit: cover;
+}
+.haw::placeholder{
+    color: #99B1D4;
+}
+.tep:hover{
+   background: #304156;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #a5bbdc;
+}
+.ant-input{
+    background-color: #222933;
+    color: #99B1D4;
+    border: none;
+}
+.ant-input::placeholder{
+    color: #99B1D4;
+}
+.ant-input-password{
+    background-color: #222933;
+    color: #99B1D4;
+    border: none;
+}
+
